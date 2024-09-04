@@ -47,6 +47,7 @@ input[type="text"], input[type="file"], textarea {
     border: 2px solid #070707;
     border-radius: 10px;
     font-size: 16px;
+    font-weight: 700;
     background-color: rgb(179, 184, 183);
 }
 
