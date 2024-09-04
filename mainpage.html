@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Navigation</title>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Complaint Statement</h1>
+        <form action="submit_details.php" method="POST" enctype="multipart/form-data">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="resistor">Resistor Number:</label>
+            <input type="text" id="resistor" name="resistor" required>
+
+            <label for="video">Upload Video:</label>
+            <input type="file" id="video" name="video" accept="video/*">
+            
+
+            <label for="audio">Upload Audio:</label>
+            <input type="file" id="audio" name="audio" accept="audio/*">
+            
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+            
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here" required></textarea>
+
+            <button type="submit"><a style="text-decoration: none;" href="file:///D:/complaint/success.html">Submit</button></a>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
